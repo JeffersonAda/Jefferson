@@ -1,4 +1,4 @@
-public class Filmes {
+public class Filmes extends Sistema {
     private String id;
     private String nome;
 
@@ -35,7 +35,44 @@ public class Filmes {
     public String genero(){
         return this.genero;
     }
+
+    @Override
+    public String escritor() {
+        return null;
+    }
+
+    @Override
+    public String editora() {
+        return null;
+    }
+
+    @Override
+    public String distribuidora() {
+        return null;
+    }
+
     public String diretores(){return this.diretores;}
+
+    @Override
+    public String produtores() {
+        return null;
+    }
+
+    @Override
+    public String musicosbandas() {
+        return null;
+    }
+
+    @Override
+    public String selos() {
+        return null;
+    }
+
+    @Override
+    public String tipo() {
+        return null;
+    }
+
     public String estudio(){return this.estudio;}
 
     public String Produtores(){return this.produtores;}

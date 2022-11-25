@@ -1,4 +1,4 @@
-public class Brinquedos {
+public class Brinquedos extends Sistema {
     private String id;
     private String nome;
 
@@ -23,8 +23,54 @@ public class Brinquedos {
     public String preco(){
         return this.preco;
     }
+
+    @Override
+    public String genero() {
+        return null;
+    }
+
+    @Override
+    public String escritor() {
+        return null;
+    }
+
+    @Override
+    public String editora() {
+        return null;
+    }
+
+    @Override
+    public String distribuidora() {
+        return null;
+    }
+
+    @Override
+    public String estudio() {
+        return null;
+    }
+
+    @Override
+    public String diretores() {
+        return null;
+    }
+
+    @Override
+    public String produtores() {
+        return null;
+    }
+
+    @Override
+    public String musicosbandas() {
+        return null;
+    }
+
+    @Override
+    public String selos() {
+        return null;
+    }
+
     public String tipo(){
         return this.tipo;
     }
-    
+
 }

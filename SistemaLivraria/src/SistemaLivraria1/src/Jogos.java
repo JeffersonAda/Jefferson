@@ -1,4 +1,4 @@
-public class Jogos {
+public class Jogos extends Sistema {
     private String id;
     private String nome;
 
@@ -32,8 +32,44 @@ public class Jogos {
     public String genero(){
         return this.genero;
     }
+
+    @Override
+    public String escritor() {
+        return null;
+    }
+
+    @Override
+    public String editora() {
+        return null;
+    }
+
     public String distribuidora(){return this.distribuidora;}
     public String estudio(){return this.estudio;}
+
+    @Override
+    public String diretores() {
+        return null;
+    }
+
+    @Override
+    public String produtores() {
+        return null;
+    }
+
+    @Override
+    public String musicosbandas() {
+        return null;
+    }
+
+    @Override
+    public String selos() {
+        return null;
+    }
+
+    @Override
+    public String tipo() {
+        return null;
+    }
 
 
 }

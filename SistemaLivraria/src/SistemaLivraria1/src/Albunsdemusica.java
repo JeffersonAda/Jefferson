@@ -1,4 +1,4 @@
-public class Albunsdemusica {
+public class Albunsdemusica extends Sistema {
     private String id;
     private String nome;
 
@@ -32,7 +32,43 @@ public class Albunsdemusica {
     public String genero(){
         return this.genero;
     }
+
+    @Override
+    public String escritor() {
+        return null;
+    }
+
+    @Override
+    public String editora() {
+        return null;
+    }
+
+    @Override
+    public String distribuidora() {
+        return null;
+    }
+
+    @Override
+    public String estudio() {
+        return null;
+    }
+
+    @Override
+    public String diretores() {
+        return null;
+    }
+
+    @Override
+    public String produtores() {
+        return null;
+    }
+
     public String musicosbandas(){return this.musicosbandas;}
     public String selos(){return this.selos;}
+
+    @Override
+    public String tipo() {
+        return null;
+    }
 
 }
