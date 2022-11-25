@@ -19,7 +19,6 @@ public class Jogos {
         this.estudio = estudio;
     }
 
-    @Override
     public String id(){
         return this.id;
     }
@@ -34,8 +33,7 @@ public class Jogos {
         return this.genero;
     }
     public String distribuidora(){return this.distribuidora;}
-    public String estudio(){
-        return this.estudio;
-    }
+    public String estudio(){return this.estudio;}
+
 
 }
